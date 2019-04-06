@@ -1,0 +1,7 @@
+ArialMT subset (IGNWAZ)
+ArialMT subset (LHBELT)
+CMR10 (Type 1) embedded
+Helvetica nofontdescriptor
+KozMinPro-Regular-UniJIS-UCS2-H nofontdescriptor
+MS-Gothic subset (QCKKWL)
+Puritan2 (Type1) embedded

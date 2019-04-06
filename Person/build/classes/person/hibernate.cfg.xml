@@ -1,0 +1,42 @@
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.cfg.Configuration;
+ 
+import com.pojo.Person;
+ 
+public class Test {
+ 
+ public static void main(String[] args) {
+ 
+  Session session = null;  // Bir tane session tanımlıyoruz.
+ 
+ SessionFactory sessionFactory = new Configuration().configure().buildSessionFactory();
+// hibernate.cfg.xml dosyasındaki ayarlara ait bir session factory yaratıyoruz.
+ 
+    // Bu session Factory'den bir session açıyoruz.
+      session = sessionFactory.openSession();
+ 
+      // Bir transaction açıyoruz
+        Transaction transaction = session.getTransaction();
+      try {
+ 
+   // Bir kişi ekleyelim
+   Person person = new Person();
+   person.setName("Samime");
+   person.setSurname("YORGANCILAR");
+   transaction.begin(); // Transaction'umuzu başlatıyor
+   session.save(person); // person objemizi kayıt ediyor
+   transaction.commit();//ve bu transaction'u veri tabanına gönderiyoruz.
+ 
+  } catch (Exception e) {
+   e.printStackTrace();
+  }
+ 
+  finally{
+   session.close();  //session'umuzu kapatıyoruz.
+  }
+ 
+ }
+ 
+}

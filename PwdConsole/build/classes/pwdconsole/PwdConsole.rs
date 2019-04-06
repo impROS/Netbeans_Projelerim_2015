@@ -1,0 +1,2 @@
+pwdconsole.ConsoleEraser
+pwdconsole.PwdConsole

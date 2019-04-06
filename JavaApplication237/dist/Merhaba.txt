@@ -1,0 +1,7 @@
+<html>
+<body>
+<h2>Merhaba Uygulamacýðý</h2>
+<applet code=Merhaba.class width="200",height="50">
+</applet>
+</body>
+</html>

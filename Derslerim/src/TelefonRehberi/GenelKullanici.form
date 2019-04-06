@@ -1,0 +1,1311 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.9" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Telefon Rehberi"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jInternalFrame1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jInternalFrame1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JInternalFrame" name="jInternalFrame1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="39" green="c3" red="5b" type="rgb"/>
+        </Property>
+        <Property name="closable" type="boolean" value="true"/>
+        <Property name="iconifiable" type="boolean" value="true"/>
+        <Property name="maximizable" type="boolean" value="true"/>
+        <Property name="title" type="java.lang.String" value="Telefon Rehberi"/>
+        <Property name="visible" type="boolean" value="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel3" alignment="0" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <BindingProperties>
+            <BindingProperty name="background" source="jInternalFrame1" sourcePath="${background}" target="jPanel3" targetPath="background" updateStrategy="0" immediately="false"/>
+          </BindingProperties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jScrollPane1" max="32767" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="jTextField1" min="-2" pref="310" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton1" max="32767" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jButton2" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jButton1" alignment="0" min="-2" pref="56" max="-2" attributes="0"/>
+                          <Component id="jTextField1" alignment="0" max="32767" attributes="0"/>
+                          <Component id="jButton2" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="450" max="-2" attributes="0"/>
+                      <EmptySpace pref="21" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JTextField" name="jTextField1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="37" green="37" red="37" type="rgb"/>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="18" style="0"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x130;sim Giriniz"/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x130;sim Gir"/>
+                <Property name="caretColor" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="0" green="cc" red="0" type="rgb"/>
+                </Property>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Text Cursor"/>
+                </Property>
+                <Property name="selectionEnd" type="int" value="0"/>
+                <Property name="selectionStart" type="int" value="0"/>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jTextField1MouseClicked"/>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Century Gothic" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/TelefonRehberi/1431565384_search.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="ARA"/>
+                <Property name="toolTipText" type="java.lang.String" value="Aramay&#x131; Ba&#x15f;lat"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="horizontalTextPosition" type="int" value="4"/>
+                <Property name="iconTextGap" type="int" value="5"/>
+              </Properties>
+              <BindingProperties>
+                <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jButton1" targetPath="background" updateStrategy="0" immediately="false"/>
+                <BindingProperty name="foreground" source="jInternalFrame1" sourcePath="${background}" target="jButton1" targetPath="foreground" updateStrategy="0" immediately="false"/>
+              </BindingProperties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Century Gothic" size="14" style="1"/>
+                </Property>
+                <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+                  <Image iconType="3" name="/TelefonRehberi/1431565178_administrator.png"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="G&#x130;R&#x130;&#x15e;"/>
+                <Property name="toolTipText" type="java.lang.String" value="Admin Giri&#x15f;i"/>
+                <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                  <Color id="Hand Cursor"/>
+                </Property>
+                <Property name="horizontalAlignment" type="int" value="2"/>
+                <Property name="horizontalTextPosition" type="int" value="4"/>
+              </Properties>
+              <BindingProperties>
+                <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jButton2" targetPath="background" updateStrategy="0" immediately="false"/>
+                <BindingProperty name="foreground" source="jInternalFrame1" sourcePath="${background}" target="jButton2" targetPath="foreground" updateStrategy="0" immediately="false"/>
+              </BindingProperties>
+            </Component>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="66" green="66" red="66" type="rgb"/>
+                </Property>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Ki&#x15f;i Listesi">
+                      <Font PropertyName="font" name="Tahoma" size="14" style="1"/>
+                      <Color PropertyName="color" blue="33" green="33" red="33" type="rgb"/>
+                    </TitledBorder>
+                  </Border>
+                </Property>
+                <Property name="toolTipText" type="java.lang.String" value="Ki&#x15f;i Listesi"/>
+                <Property name="horizontalScrollBar" type="javax.swing.JScrollBar" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="null"/>
+                </Property>
+              </Properties>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Container class="javax.swing.JPanel" name="jPanel1">
+                  <Properties>
+                    <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="33" green="33" red="33" type="rgb"/>
+                    </Property>
+                  </Properties>
+
+                  <Layout>
+                    <DimensionLayout dim="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jToolBar2" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar3" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar4" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar5" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar6" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar7" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar8" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar9" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar10" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar11" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar12" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar13" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar14" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar15" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar16" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar17" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar18" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar19" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar20" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar21" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar22" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar23" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar24" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar25" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar26" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar27" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar28" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar29" alignment="0" pref="524" max="32767" attributes="0"/>
+                          <Component id="jToolBar1" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                    </DimensionLayout>
+                    <DimensionLayout dim="1">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="jToolBar1" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar2" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar3" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar4" linkSize="3" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar5" linkSize="3" min="-2" pref="33" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar6" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar7" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar8" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar9" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar10" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar11" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar12" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar13" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar14" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar15" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar16" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar17" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar18" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar19" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar20" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar21" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar22" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar23" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar24" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar25" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar26" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar27" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar28" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jToolBar29" linkSize="3" min="-2" pref="23" max="-2" attributes="0"/>
+                              <EmptySpace min="0" pref="454" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                    </DimensionLayout>
+                  </Layout>
+                  <SubComponents>
+                    <Container class="javax.swing.JToolBar" name="jToolBar1">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar1" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel1">
+                          <Properties>
+                            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                              <Font name="Tahoma" size="14" style="1"/>
+                            </Property>
+                            <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+                            </Property>
+                            <Property name="text" type="java.lang.String" value="A"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton5">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="ABDULLAH DUMLU"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton4">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="AHMET KARAHAN"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton3">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="AHMET NAR"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar2">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar2" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel2">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="B"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel2" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel2" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton9">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="BU&#x11e;RA CAN"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton8">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="BET&#xdc;L EK&#x130;N"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton7">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="BARAN &#xd6;ZER"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton6">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="BERNA ARAS"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar3">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar3" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel3">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="C"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel3" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel3" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton13">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="CEMRE DEN&#x130;Z"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton12">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="CEM&#x130;L SARIHAN"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton11">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="CANAN &#xd6;T&#xdc;N"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton10">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="CEMAL KARA"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar4">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar4" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel4">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xc7;"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel4" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel4" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton15">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xc7;&#x130;&#x11e;DEM TAKOZ"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton14">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xc7;ET&#x130;N N&#x130;RE"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton28">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xc7;AYAN KAYA"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar5">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar5" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel5">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="D"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel5" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel5" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton17">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="DEN&#x130;Z YEMEZ"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton16">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="DERMAN HAN"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar6">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar6" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel6">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="E"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel6" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel6" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton19">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="EMRE TANRIVERD&#x130;"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton18">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="EM&#x130;NE SALMAN"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar7">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar7" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel7">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="F"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel7" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel7" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton21">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="FIRAT KARADA&#x11e;"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton20">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="FERD&#x130; BULU&#x15e;"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar8">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar8" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel8">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="G"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel8" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel8" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton23">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="GAZEL TOP&#xc7;U"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton22">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="GONCA HAKTAN"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar9">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar9" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel9">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="H"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel9" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel9" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton25">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="HAKAN &#xc7;EMEN"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton24">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="HAYRETT&#x130;N A&#xc7;AR"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar10">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar10" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel10">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="I"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel10" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel10" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton27">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="IRMAK &#x130;SMA&#x130;LO&#x11e;ULLARI"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JButton" name="jButton26">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="IRAK &#xd6;Z"/>
+                            <Property name="focusable" type="boolean" value="false"/>
+                            <Property name="horizontalTextPosition" type="int" value="0"/>
+                            <Property name="verticalTextPosition" type="int" value="3"/>
+                          </Properties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar11">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar11" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel11">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#x130;"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel11" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel11" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar12">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar12" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel12">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="J"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel12" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel12" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar13">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar13" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel13">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="K"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel13" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel13" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar14">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar14" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel14">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="L"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel14" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel14" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar15">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar15" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel15">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="M"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel15" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel15" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar16">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar16" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel16">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="N"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel16" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel16" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar17">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar17" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel17">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="O"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel17" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel17" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar18">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar18" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel18">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xd6;"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel18" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel18" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar19">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar19" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel19">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="P"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel19" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel19" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar20">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar20" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel20">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="R"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel20" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel20" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar21">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar21" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel21">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="S"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel21" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel21" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar22">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar22" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel22">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#x15e;"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel22" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel22" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar23">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar23" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel23">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="T"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel23" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel23" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar24">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar24" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel24">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="U"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel24" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel24" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar25">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar25" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel25">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="&#xdc;"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel25" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel25" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar26">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar26" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel26">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="V"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel26" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel26" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar27">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar27" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel27">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Y"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel27" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel27" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar28">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar28" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel28">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Z"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel28" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel28" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                    <Container class="javax.swing.JToolBar" name="jToolBar29">
+                      <Properties>
+                        <Property name="floatable" type="boolean" value="false"/>
+                        <Property name="orientation" type="int" value="1"/>
+                        <Property name="rollover" type="boolean" value="true"/>
+                        <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+                          <Color id="Default Cursor"/>
+                        </Property>
+                        <Property name="focusable" type="boolean" value="false"/>
+                      </Properties>
+                      <BindingProperties>
+                        <BindingProperty name="background" source="jTextField1" sourcePath="${background}" target="jToolBar29" targetPath="background" updateStrategy="0" immediately="false"/>
+                      </BindingProperties>
+
+                      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+                      <SubComponents>
+                        <Component class="javax.swing.JLabel" name="jLabel29">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="X"/>
+                          </Properties>
+                          <BindingProperties>
+                            <BindingProperty name="font" source="jLabel1" sourcePath="${font}" target="jLabel29" targetPath="font" updateStrategy="0" immediately="false"/>
+                            <BindingProperty name="foreground" source="jLabel1" sourcePath="${foreground}" target="jLabel29" targetPath="foreground" updateStrategy="0" immediately="false"/>
+                          </BindingProperties>
+                        </Component>
+                      </SubComponents>
+                    </Container>
+                  </SubComponents>
+                </Container>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

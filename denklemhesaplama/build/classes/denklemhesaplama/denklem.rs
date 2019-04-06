@@ -1,0 +1,2 @@
+Matematikci
+denklem

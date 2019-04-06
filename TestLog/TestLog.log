@@ -1,0 +1,6 @@
+Kas 10, 2015 7:20:06 AM testlog.TestLog main
+SEVERE: my severe message
+Kas 10, 2015 7:20:06 AM testlog.TestLog main
+WARNING: my warning message
+Kas 10, 2015 7:20:06 AM testlog.TestLog main
+INFO: my info message

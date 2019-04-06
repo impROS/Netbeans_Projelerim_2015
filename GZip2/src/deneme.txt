@@ -1,0 +1,27 @@
+  public E push(E item) {
+        addElement(item);
+
+        return item;
+    }
+	
+	    public synchronized void addElement(E obj) {
+        modCount++;
+        ensureCapacityHelper(elementCount + 1);
+        elementData[elementCount++] = obj;
+    }
+	
+	    public synchronized boolean add(E e) {
+        modCount++;
+        ensureCapacityHelper(elementCount + 1);
+        elementData[elementCount++] = e;
+        return true;
+    }
+	
+	    public synchronized int search(Object o) {
+        int i = lastIndexOf(o);
+
+        if (i >= 0) {
+            return size() - i;
+        }
+        return -1;
+    }

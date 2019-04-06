@@ -1,0 +1,12 @@
+2015.11.10 07:02:30  i am here
+2015.11.10 07:05:44  i am here
+2015.11.10 07:06:02  i am here
+2015.11.10 07:06:02  / by zero
+2015.11.10 07:06:05  i am here
+2015.11.10 07:06:05  / by zero
+2015.11.10 07:06:48  i am here
+2015.11.10 07:06:48  ------
+java.lang.ArithmeticException: / by zero
+	at simplelog2.SimpleLog.main(SimpleLog.java:22)
+------
+
